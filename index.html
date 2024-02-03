@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <form action="" id="form">
+        <img src="./img/logo-qr-generator.svg" alt="">
+        <div class="input-container">
+            <input type="url" name="" id="url" placeholder="Enter a url">
+            <button type="submit">QR code</button>
+        </div>
+    </form>
+
+    <div class="qrcode ocultar">
+        <div class="img-container">
+            <img src="./img/logo-qr-generator.svg" alt="">
+
+        </div>
+        <div id="qr-container">
+            <div id="qr" class="qr"></div>
+            <div class="radio"></div>
+            <div class="btn-container">
+                <button>Download</button>
+                <button>Share</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+    <script src="./qrcodejs-master/qrcode.min.js"></script>
+</body>
+</html>

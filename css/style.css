@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  border: none;
+  outline: none;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  background-color: #111729;
+  background-image: url("../img/bg-illustration.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body form {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+}
+body form .input-container {
+  position: relative;
+  width: 40%;
+  border: 2px solid #3662E3;
+  background-color: #030617;
+  font-family: 1.9rem;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body form .input-container input {
+  padding: 20px;
+  color: #fff;
+  background-color: #030617;
+  width: 100%;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body form .input-container button {
+  color: #fff;
+  background-color: #3662E3;
+  padding: 18px 10px;
+  border-radius: 15px;
+  width: 40%;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.ocultar {
+  display: none;
+  visibility: hidden;
+}
+
+.qrcode {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  padding: 30px 40px;
+}
+.qrcode .img-container {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  justify-content: left;
+  top: 0;
+  left: 0;
+  padding: 40px 80px;
+}
+.qrcode #qr-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.qrcode #qr-container .radio {
+  position: absolute;
+  border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  background-color: rgba(78, 128, 238, 0.2);
+  top: -40px;
+}
+.qrcode #qr-container .qr {
+  background-color: #F2F5F9;
+  border-radius: 20px;
+  height: 270px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: #3662E3;
+  color: #fff;
+  padding: 15px 45px;
+  border-radius: 9px;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
